@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    @extend %gilroy-500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 940px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
