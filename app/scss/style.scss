@@ -7,6 +7,8 @@
 // @extend %gilroy-700;
 
 .header {
+    margin-bottom: 100px;
+
     &__top {
         padding: 30px 0;
         border-bottom: 1px solid #828282;
@@ -57,6 +59,139 @@
         &:hover {
             color: #070707;
         }
+    }
+}
+
+.about {
+    padding: 120px 0 67px;
+
+    &__title {
+        margin-bottom: 18px;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__text {
+        max-width: 485px;
+        margin-bottom: 40px;
+    }
+}
+
+.skills {
+    padding: 90px 0 110px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 69px;
+    }
+
+    &__text {
+        margin-bottom: 83px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 166px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item-img {
+        margin-bottom: 24px;
+    }
+
+    &__descr {
+        @extend %gilroy-700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+        width: 80px;
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__list-item+.skills__list-item {
+        padding-left: 9px;
+    }
+}
+
+.portfolio {
+    padding-top: 113px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 47px;
+    }
+
+    &__item {
+        padding-bottom: 99px;
+    }
+
+    &__img {
+        margin-bottom: 45px;
+    }
+
+    &__link {
+        @extend %gilroy-500;
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+.footer {
+    padding: 114px 0 123px;
+    text-align: center;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 29px;
+    }
+
+    &__btn {
+        border: none;
+        border-radius: 25px;
+        background-color: #000;
+        color: #fff;
+        padding: 10px 30px;
+        cursor: pointer;
+        margin-bottom: 85px;
+    }
+
+    &__items {
+        width: 345px;
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__subscr {
+        @extend %gilroy-500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
     }
 }
 

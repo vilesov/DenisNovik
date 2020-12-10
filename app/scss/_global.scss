@@ -16,10 +16,6 @@ main {
     flex-grow: 1;
 }
 
-section {
-    padding: 100px 0;
-}
-
 .container {
     max-width: 940px;
     padding: 0 15px;
@@ -30,4 +26,9 @@ section {
     @extend %gilroy-700;
     font-size: 34px;
     line-height: 42px;
+    text-align: center;
+}
+
+.gray-bg {
+    background-color: #f6f6f6;
 }
