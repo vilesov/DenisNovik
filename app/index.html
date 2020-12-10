@@ -14,6 +14,7 @@
         <div class="container">
             <div class="header__top">
                 <nav class="menu">
+                    <button class="menu__btn"></button>
                     <ul class="menu__list">
                         <li class="menu__item">
                             <a class="menu__link" href="#">Home</a>
@@ -30,6 +31,11 @@
                         <li class="menu__item">
                             <a class="menu__link" href="#">Contacts</a>
                         </li>
+                        <div class="header__lang header__lang--mobile">
+                            <a class="header__lang-ru" href="#">RU</a>
+                            |
+                            <a class="header__lang-en header__lang--active" href="#">ENG</a>
+                        </div>
                     </ul>
                 </nav>
             </div>
@@ -54,6 +60,7 @@
 
             <div class="header__author">
                 <img class="header__author-img" src="images/author.jpg" alt="Автор">
+                <img class="header__author-img--min" src="images/author-min.jpg" alt="Автор">
             </div>
         </div>
     </header>
@@ -199,10 +206,18 @@
                     Send message
                 </button>
                 <div class="footer__items">
-                    <img class="footer__item" src="images/icons/linkedIn.svg" alt="linkedIn">
-                    <img class="footer__item" src="images/icons/instagram.svg" alt="instagram">
-                    <img class="footer__item" src="images/icons/behance.svg" alt="behance">
-                    <img class="footer__item" src="images/icons/dribble.svg" alt="dribble">
+                    <a class="footer__item-link" href="#">
+                        <img class="footer__item" src="images/icons/linkedIn.svg" alt="linkedIn">
+                    </a>
+                    <a class="footer__item-link" href="#">
+                        <img class="footer__item" src="images/icons/instagram.svg" alt="instagram">
+                    </a>
+                    <a class="footer__item-link" href="#">
+                        <img class="footer__item" src="images/icons/behance.svg" alt="behance">
+                    </a>
+                    <a class="footer__item-link" href="#">
+                        <img class="footer__item" src="images/icons/dribble.svg" alt="dribble">
+                    </a>
                 </div>
                 <p class="footer__subscr">
                     Like me on
